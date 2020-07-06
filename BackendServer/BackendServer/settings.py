@@ -14,7 +14,7 @@ SECRET_KEY = 'lw&xv^h02sr4gvz7!p)xb1n4ge&%telx9uky&g0+l#g1_=+(st'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -64,25 +64,25 @@ WSGI_APPLICATION = 'BackendServer.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-        'default' : {
-            'ENGINE' : 'django.db.backends.sqlite3',
-            'NAME': 'Backend_DB'
-
-            }
-        }
-
 #DATABASES = {
-#        'default': {
-#            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#            #"ENGINE": "django.db.backends.postgresql",
-#            'NAME': 'restapi',
-#            'USER': 'master',
-#            'PASSWORD': 'toqur9393!!',
-#            'HOST':'localhost',
-#            'PORT': '5432',
+#        'default' : {
+#            'ENGINE' : 'django.db.backends.sqlite3',
+#            'NAME': 'Backend_DB'
+#
 #            }
 #        }
+
+DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            #"ENGINE": "django.db.backends.postgresql",
+            'NAME': 'restapi',
+            'USER': 'master',
+            'PASSWORD': 'toqur9393!!',
+            'HOST':'localhost',
+            'PORT': '5432',
+            }
+        }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -122,3 +122,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = ["backend/Django_Backend/BackendSever/static"] 
+
+REST_FRAMEWORK = {
+               # Use Django's standard `django.contrib.auth` permissions,
+               # or allow read-only access for unauthenticated users.
+              'DEFAULT_PERMISSION_CLASSES': [
+               'rest_framework.permissions.IsAuthenticated',
+               #'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
+  ]
+}
+

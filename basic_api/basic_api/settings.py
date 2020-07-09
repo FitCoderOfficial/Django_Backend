@@ -11,9 +11,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '((@6shs^p9tdvaagc)$ghipdvz+xfmfz@xbjl$x7p6npzz-7#r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['agapeace.com','www.agapeace.com','*']
 
 
 # Application definition
@@ -129,7 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = ["backend/Django_Backend/basic_api/static"] 
+STATIC_ROOT =  "/backend/Django_Backend/basic_api/static" 
 
 
 EST_FRAMEWORK = {

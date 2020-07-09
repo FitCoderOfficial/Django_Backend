@@ -1,0 +1,98 @@
+[Wed Jul 08 17:49:10.995979 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553] mod_wsgi (pid=28241): Failed to exec Python script file '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:10.996184 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553] mod_wsgi (pid=28241): Exception occurred processing WSGI script '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:10.999558 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553] Traceback (most recent call last):
+[Wed Jul 08 17:49:10.999723 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "/backend/Django_Backend/basic_api/basic_api/wsgi.py", line 16, in <module>
+[Wed Jul 08 17:49:10.999740 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]     application = get_wsgi_application()
+[Wed Jul 08 17:49:10.999764 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Wed Jul 08 17:49:10.999778 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]     django.setup(set_prefix=False)
+[Wed Jul 08 17:49:10.999800 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/__init__.py", line 19, in setup
+[Wed Jul 08 17:49:10.999815 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Wed Jul 08 17:49:10.999836 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 76, in __getattr__
+[Wed Jul 08 17:49:10.999851 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]     self._setup(name)
+[Wed Jul 08 17:49:10.999871 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 63, in _setup
+[Wed Jul 08 17:49:10.999886 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]     self._wrapped = Settings(settings_module)
+[Wed Jul 08 17:49:10.999906 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 142, in __init__
+[Wed Jul 08 17:49:10.999921 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Wed Jul 08 17:49:10.999941 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[Wed Jul 08 17:49:10.999955 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Jul 08 17:49:10.999976 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[Wed Jul 08 17:49:10.999998 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[Wed Jul 08 17:49:11.000020 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553]   File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+[Wed Jul 08 17:49:11.000086 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10553] ModuleNotFoundError: No module named 'basic_api.settings'
+[Wed Jul 08 17:49:11.109336 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554] mod_wsgi (pid=28241): Failed to exec Python script file '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:11.109447 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554] mod_wsgi (pid=28241): Exception occurred processing WSGI script '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:11.109858 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554] Traceback (most recent call last):
+[Wed Jul 08 17:49:11.109993 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "/backend/Django_Backend/basic_api/basic_api/wsgi.py", line 16, in <module>
+[Wed Jul 08 17:49:11.110010 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]     application = get_wsgi_application()
+[Wed Jul 08 17:49:11.110033 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Wed Jul 08 17:49:11.110048 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]     django.setup(set_prefix=False)
+[Wed Jul 08 17:49:11.110070 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/__init__.py", line 19, in setup
+[Wed Jul 08 17:49:11.110085 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Wed Jul 08 17:49:11.110106 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 76, in __getattr__
+[Wed Jul 08 17:49:11.110121 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]     self._setup(name)
+[Wed Jul 08 17:49:11.110142 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 63, in _setup
+[Wed Jul 08 17:49:11.110156 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]     self._wrapped = Settings(settings_module)
+[Wed Jul 08 17:49:11.110177 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 142, in __init__
+[Wed Jul 08 17:49:11.110191 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Wed Jul 08 17:49:11.110212 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[Wed Jul 08 17:49:11.110226 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Jul 08 17:49:11.110246 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[Wed Jul 08 17:49:11.110268 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[Wed Jul 08 17:49:11.110290 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554]   File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+[Wed Jul 08 17:49:11.110333 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10554] ModuleNotFoundError: No module named 'basic_api.settings'
+[Wed Jul 08 17:49:19.421064 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556] mod_wsgi (pid=28241): Failed to exec Python script file '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:19.421287 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556] mod_wsgi (pid=28241): Exception occurred processing WSGI script '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:19.422107 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556] Traceback (most recent call last):
+[Wed Jul 08 17:49:19.422418 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "/backend/Django_Backend/basic_api/basic_api/wsgi.py", line 16, in <module>
+[Wed Jul 08 17:49:19.422518 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]     application = get_wsgi_application()
+[Wed Jul 08 17:49:19.422578 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Wed Jul 08 17:49:19.422615 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]     django.setup(set_prefix=False)
+[Wed Jul 08 17:49:19.422668 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/__init__.py", line 19, in setup
+[Wed Jul 08 17:49:19.422704 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Wed Jul 08 17:49:19.422757 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 76, in __getattr__
+[Wed Jul 08 17:49:19.422793 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]     self._setup(name)
+[Wed Jul 08 17:49:19.422844 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 63, in _setup
+[Wed Jul 08 17:49:19.422880 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]     self._wrapped = Settings(settings_module)
+[Wed Jul 08 17:49:19.422932 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 142, in __init__
+[Wed Jul 08 17:49:19.422968 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Wed Jul 08 17:49:19.423019 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[Wed Jul 08 17:49:19.423054 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Jul 08 17:49:19.423105 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[Wed Jul 08 17:49:19.423161 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[Wed Jul 08 17:49:19.423216 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556]   File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+[Wed Jul 08 17:49:19.423315 2020] [wsgi:error] [pid 28241:tid 3030422560] [remote 39.123.17.77:10556] ModuleNotFoundError: No module named 'basic_api.settings'
+[Wed Jul 08 17:49:19.499928 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557] mod_wsgi (pid=28241): Failed to exec Python script file '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:19.500115 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557] mod_wsgi (pid=28241): Exception occurred processing WSGI script '/backend/Django_Backend/basic_api/basic_api/wsgi.py'.
+[Wed Jul 08 17:49:19.500931 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557] Traceback (most recent call last):
+[Wed Jul 08 17:49:19.501242 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "/backend/Django_Backend/basic_api/basic_api/wsgi.py", line 16, in <module>
+[Wed Jul 08 17:49:19.501283 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]     application = get_wsgi_application()
+[Wed Jul 08 17:49:19.501340 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Wed Jul 08 17:49:19.501447 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]     django.setup(set_prefix=False)
+[Wed Jul 08 17:49:19.501506 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/__init__.py", line 19, in setup
+[Wed Jul 08 17:49:19.501542 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Wed Jul 08 17:49:19.501595 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 76, in __getattr__
+[Wed Jul 08 17:49:19.501631 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]     self._setup(name)
+[Wed Jul 08 17:49:19.501683 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 63, in _setup
+[Wed Jul 08 17:49:19.501719 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]     self._wrapped = Settings(settings_module)
+[Wed Jul 08 17:49:19.501770 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "/backend/Django_Backend/env/lib/python3.7/site-packages/django/conf/__init__.py", line 142, in __init__
+[Wed Jul 08 17:49:19.501806 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Wed Jul 08 17:49:19.501857 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
+[Wed Jul 08 17:49:19.501892 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]     return _bootstrap._gcd_import(name[level:], package, level)
+[Wed Jul 08 17:49:19.501943 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+[Wed Jul 08 17:49:19.501998 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+[Wed Jul 08 17:49:19.502053 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557]   File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+[Wed Jul 08 17:49:19.502154 2020] [wsgi:error] [pid 28241:tid 2946495520] [remote 39.123.17.77:10557] ModuleNotFoundError: No module named 'basic_api.settings'
+[Wed Jul 08 17:58:30.485781 2020] [wsgi:error] [pid 28441:tid 2929320992] [remote 39.123.17.77:10922] Not Found: /auth
+[Wed Jul 08 17:58:30.572659 2020] [wsgi:error] [pid 28441:tid 2979677216] [remote 39.123.17.77:10922] Not Found: /favicon.ico
+[Wed Jul 08 18:23:38.789875 2020] [wsgi:error] [pid 28441:tid 2979677216] [remote 89.187.168.88:55003] Not Found: /downloader/
+[Wed Jul 08 18:25:33.577902 2020] [wsgi:error] [pid 28441:tid 2929320992] [remote 39.123.17.77:13127] Not Found: /auth/login
+[Wed Jul 08 18:25:58.657213 2020] [wsgi:error] [pid 28441:tid 2979677216] [remote 39.123.17.77:13133] Not Found: /accounts/profile/
+[Wed Jul 08 18:40:38.608150 2020] [wsgi:error] [pid 28441:tid 2979677216] [remote 39.123.17.77:14426] Not Found: /ad
+Exception ignored in: <function BaseEventLoop.__del__ at 0xac80eed0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 622, in __del__
+NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xac8a5fa8>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 622, in __del__
+NameError: name 'ResourceWarning' is not defined

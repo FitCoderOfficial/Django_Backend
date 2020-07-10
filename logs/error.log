@@ -96,3 +96,7 @@ Exception ignored in: <function BaseEventLoop.__del__ at 0xac8a5fa8>
 Traceback (most recent call last):
   File "/usr/lib/python3.7/asyncio/base_events.py", line 622, in __del__
 NameError: name 'ResourceWarning' is not defined
+Exception ignored in: <function BaseEventLoop.__del__ at 0xac8a6fa8>
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/asyncio/base_events.py", line 622, in __del__
+NameError: name 'ResourceWarning' is not defined
